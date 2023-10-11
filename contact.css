@@ -1,0 +1,32 @@
+.my{
+    background-image:url("https://brainbunny.in/wp-content/uploads/2020/11/page_bg_03.jpg");
+    border-radius: 20px;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+.head{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 70px !important;
+    font-weight:700 !important;
+}
+.headimg{
+    max-width: 100%;
+    max-height: auto;
+}
+.headimg2{
+    box-shadow: 0px 20px 30px -20px rgba(0,0,0,0.5);
+}
+.foottext{
+    color: rgb(176, 174, 174);
+}
+.mybg{
+    background-color: rgb(7, 7, 48);
+}
+.mybtn{
+    text-decoration: none;
+}
