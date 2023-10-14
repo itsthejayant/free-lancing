@@ -1,21 +1,16 @@
-/* *{
+*{
     margin: 0;padding: 0;
-} */
-/* .navbar{ */
-    /* background: linear-gradient(to right, #fff, #333dff); */
-/* } */
+}
 .my{
-    /* background-image: url('https://brainbunny.in/wp-content/uploads/2020/11/bg-05.jpg'); */
-    /* background-color: rgb(146, 182, 221); */
     background: linear-gradient(to right, #fff, #333dff);
-    /* border-radius: 20px; */
-    /* margin: 5px; */
+}
+.welcome{
+    max-width: 100%;
 }
 .wave{
     background-image: url('wave2.png');
     background-size:cover;
     background-position: bottom;
-    /* background-repeat: no-repeat;  */
     height: 100px;
 }
 .head{
@@ -42,5 +37,19 @@ h1{
 .mybtn{
     text-decoration: none;
     /* font-family: ; */
-    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif !important; */
+}
+.franchise{
+    min-height: 400px;
+}
+.main:hover{
+    animation: enlarge 0.5s 1 ;
+    animation-fill-mode: forwards; 
+}
+@keyframes enlarge {
+    0%{
+    }
+    100%{
+        transform: scale(1.25);
+    }
 }
