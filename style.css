@@ -8,10 +8,16 @@
     max-width: 100%;
 }
 .wave{
-    background-image: url('wave2.png');
+    background-image: url('./images/wave2.png');
     background-size:cover;
     background-position: bottom;
     height: 100px;
+}
+.redwave{
+    background-image: url('./images/redbubble.png');
+    background-size:cover;
+    background-position: bottom;
+    height: 130px;
 }
 .head{
     height: 100%;
@@ -20,10 +26,6 @@
 h1{
     font-size: 70px !important;
     font-weight:700 !important;
-}
-.headimg{
-    max-width: 100%;
-    max-height: auto;
 }
 .headimg2{
     box-shadow: 0px 20px 30px -20px rgba(0,0,0,0.5);
@@ -42,14 +44,48 @@ h1{
 .franchise{
     min-height: 400px;
 }
-.main:hover{
-    animation: enlarge 0.5s 1 ;
+.mycard{
+    border: red solid 4px !important;
+}
+.mycard:hover{
+    box-shadow: 6px 6px 18px 6px red;
+}
+.main{
+    color:rgb(65, 33, 151);
+    animation: in 1s ease-in-out 1 ;
+    position: relative;
     animation-fill-mode: forwards; 
 }
-@keyframes enlarge {
+.headimg{
+    max-width: 100%;
+    max-height: auto;
+    animation: rotate 2s 1;
+}
+.shaking{
+    animation: shake 0.3s ease-in-out 1;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-15px); }
+    50% { transform: translateX(15px); }
+    75% { transform: translateX(-15px); }
+    100% { transform: translateX(15px); }
+  }
+@keyframes in {
     0%{
+        left: -500px;
+    }
+    50%{
+        left: 100px;
     }
     100%{
-        transform: scale(1.25);
+        left: 0px;
+    }
+}
+@keyframes rotate {
+    0%,100%{
+    }
+    50%{
+        transform:rotateY(180deg);
     }
 }
