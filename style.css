@@ -59,7 +59,7 @@ h1{
 .headimg{
     max-width: 100%;
     max-height: auto;
-    animation: rotate 2s 1;
+    /* animation: rotate 2s 1; */
 }
 .shaking{
     animation: shake 0.3s ease-in-out 1;
