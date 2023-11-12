@@ -13,6 +13,14 @@
     background-position: bottom;
     height: 100px;
 }
+.whitebubble{
+    background-image: url('./images/framecomp.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    height: 110px;
+}
 .redwave{
     background-image: url('./images/redbubble.png');
     background-size:cover;
